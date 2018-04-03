@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Musical Instruments</title>
+  <link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Julius+Sans+One" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+  <div class="menu-container">
+    <div class="menu-bar">
+      <button class="accordion-menu">
+        <img src="./images/music-symbol.png">
+      </button>
+      <div class="messagePanel">
+        <p>@ 2018 Designed by <img src="./images/favicon.png"><span id="portfolioWebsiteLink"><a href="http://clee.bcitwebdeveloper.ca/" target="_blank">CELINE LEE.</a></span></p>
+        <p>Inspired by <a href="https://javascript30.com/" target="_blank">JavaScript30</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="logo-container">
+    <div class="logo">
+      <img src="./images/logo.png"/>
+    </div>
+  </div>
+  <div class="socialMedia-icons-container">
+      <a href="mailto:celinemh05@gmail.com" target="_top"><img id="socialMediaIconEmail" src="./images/email.png"></a>
+      <a href="https://github.com/celinemhlee" target="_blank"><img id="socialMediaIconGitHub" src="./images/github.png"></a>
+      <a href="#" target="_blank"><img id="socialMediaIconLinkedin" src="./images/linkedin.png"></a>
+  </div>
+  </header>
+
+    <div class="piano-keys">
+      <div data-key="65" class="piano-key">
+        <img src='./images/piano-01-do.png' />
+        <kbd>A</kbd>
+        <span class="sound">Do</span>
+      </div>
+      <div data-key="83" class="piano-key">
+        <img src='./images/piano-02-re.png' />
+        <kbd>S</kbd>
+        <span class="sound">Re</span>
+      </div>
+      <div data-key="68" class="piano-key">
+        <img src='./images/piano-03-mi.png' />
+        <kbd>D</kbd>
+        <span class="sound">Mi</span>
+      </div>
+      <div data-key="70" class="piano-key">
+        <img src='./images/piano-04-fa.png' />
+        <kbd>F</kbd>
+        <span class="sound">Fa</span>
+      </div>
+      <div data-key="71" class="piano-key">
+        <img src='./images/piano-05-sol.png' />
+        <kbd>G</kbd>
+        <span class="sound">Sol</span>
+      </div>
+      <div data-key="72" class="piano-key">
+        <img src='./images/piano-06-la.png' />
+        <kbd>H</kbd>
+        <span class="sound">la</span>
+      </div>
+      <div data-key="74" class="piano-key">
+        <img src='./images/piano-07-si.png' />
+        <kbd>J</kbd>
+        <span class="sound">Si</span>
+      </div>
+      <div data-key="75" class="piano-key">
+        <img src='./images/piano-08-do-octave.png' />
+        <kbd>K</kbd>
+        <span class="sound">Do</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="./sounds/piano-C.wav"></audio>
+    <audio data-key="83" src="./sounds/piano-D.wav"></audio>
+    <audio data-key="68" src="./sounds/piano-E.wav"></audio>
+    <audio data-key="70" src="./sounds/piano-F.wav"></audio>
+    <audio data-key="71" src="./sounds/piano-G.wav"></audio>
+    <audio data-key="72" src="./sounds/piano-A.wav"></audio>
+    <audio data-key="74" src="./sounds/piano-B.wav"></audio>
+    <audio data-key="75" src="./sounds/piano-Coctave.wav"></audio>
+
+    <footer>
+      <!-- <p>@ 2018 <a href="#" target="_blank">Celine Lee</a></p>
+      <p>Inspired by <a href="https://javascript30.com/" target="_blank">JavaScript30</a></p> -->
+    </footer>
+    <!-- script -->
+    <script src='./js/script.js'></script>
+
+  </body>
+</html>

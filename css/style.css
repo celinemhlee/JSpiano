@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  background-image: url('./../images/bg2.png');
+  background-position: center;
+  height: 100vh;
+}
+
+/* header styles */
+
+header {
+  height: 70px;
+  display: flex;
+  background-color: #07233b;
+}
+
+header img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.menu-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+}
+
+/* menu accordion */
+
+.accordion-menu {
+  background-color: #20415b;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  outline: none;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0;
+}
+
+.accordion-menu img {
+  width: 50px;
+  height: 50px;
+}
+
+.active, .accordion-menu:hover {
+  background: #ffc600;
+}
+
+.messagePanel {
+  display: none;
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 15px;
+  width: 290px;
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.messagePanel p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.9em;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.messagePanel a {
+  color: #ffc600;
+  font-weight: 700;
+}
+
+span#portfolioWebsiteLink a {
+  color: #93b6ed;
+}
+
+span#portfolioWebsiteLink a:hover {
+  color: #fff;
+}
+
+.messagePanel a:hover {
+  color: #fff;
+}
+
+.messagePanel img {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+}
+
+
+/* logo */
+
+.logo-container {
+  padding-top: 35px;
+  width: 40%;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+/* socialMedia-icons */
+
+.socialMedia-icons-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia-icons-container img {
+  width: 35px;
+  margin-right: 17px;
+  text-align: center;
+}
+
+#socialMediaIconEmail,
+#socialMediaIconGitHub,
+#socialMediaIconLinkedin {
+  background-color: #20415b;
+}
+
+#socialMediaIconLinkedin {
+  margin-right: 0;
+}
+
+#socialMediaIconEmail:hover,
+#socialMediaIconGitHub:hover,
+#socialMediaIconLinkedin:hover {
+  background-color: #ffc600;
+}
+
+
+
+/* end of header styles */
+
+/* piano styles */
+
+
+.piano-keys {
+  height: 405px;
+  margin: 0 auto;
+  padding-top: 170px;
+  width: auto;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.piano-keys img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  background-color: #111;
+}
+
+.text  {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+}
+
+p#text {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 3.0em;
+  color: #fff;
+  text-shadow: 5px 5px #111;
+}
+
+.piano-key{
+  width: 90px;
+  height: auto;
+  color: white;
+  margin: 2px;
+  font-size: 1.5rem;
+  transition: all .07s ease;
+  text-align: center;
+}
+
+.pianoPlaying {
+  transform: scale(1.1);
+}
+
+kbd {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.sound {
+  font-size: 0.5em;
+  letter-spacing: .1vh;
+  color: #ffc600;
+}
+
+
+/* end of piano styles */
+
+/* footer styles */
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 2px 0;
+  font-size: 0.8em;
+  color: #5D6D7E;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+footer a {
+  color: #5D6D7E;
+}
+
+footer a:hover {
+  color: #F7DC6F;
+  transition: 0.3s;
+}
+
+
+/* end of footer styles */
