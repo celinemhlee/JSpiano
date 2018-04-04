@@ -1,6 +1,8 @@
 
 # Simple HTML 5 and Javascript Piano
 
+Javascript Project 01
+
 View Live Demo : http://clee.bcitwebdeveloper.ca/jspiano
 
 Inspired by : JavaScript30 (30 Day Vanilla JS Challenge) https://JavaScript30.com
